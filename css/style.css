@@ -1,7 +1,7 @@
 *
 {
     box-sizing: border-box;
-    font-family: 'Arya';
+    font-family: 'Arya' , monospace;
     margin: 0;
     padding: 0;
 }
@@ -39,72 +39,27 @@ body
     font-size: 0.9rem;
 }
 
-
-.container-2
-{
-    max-width: 450px;
-    background-color:white;
-    padding: 0.6rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-    flex-wrap: wrap;
-  
-}
-
-.box-one
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-   
-   
-}
-.box-two
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
-.count
-{
-    display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-
-#char
-{
-    font-weight: 700;
-    font-size: 1rem;
-}
-
-#twitter-number
-{
-    font-weight: 700;
-    font-size: 1rem;
-}
-
-#insta-number
-{
-    font-weight: 700;
-    font-size: 1rem;
-}
-
-#word
-{
-    font-weight: 700;
-    font-size: 1rem;
-}
-
 .redcolor
 {
     color: red;
+}
+
+#number-counter
+{
+    max-width: 400px;
+    padding: 2rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    gap: 8px;
+}
+
+#number-counter>div
+{
+    flex-basis: 40%;
 }

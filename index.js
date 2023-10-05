@@ -16,6 +16,7 @@ const charCounter = (e) => {
     char_element.innerHTML = e.target.value.length;
 }
 
+
 let space_length_number = 0;
 
 const wordCounter = (e) => {
@@ -46,7 +47,7 @@ const instaCounter = (e) => {
     changeInstaColor(e.target.value.length);
 }
 
-const changeColor = ( count) => {
+const changeColor = (count) => {
     if (count > 280) {
         twitter_element.classList.add('redcolor');
     } else {
