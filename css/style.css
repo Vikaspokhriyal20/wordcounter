@@ -8,14 +8,14 @@
 
 body
 {
-    background-color: violet;
+    background-color: purple;
    
 }
 
 #title
 {
     text-align: center;
-    color: black;
+    color: white;
     font-size: 1rem;
     letter-spacing: 1px;
     margin-bottom: 1rem;
